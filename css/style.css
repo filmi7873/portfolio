@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f0c29;
+    color: white;
+  }
+  
+  .hero {
+    display: flex;
+    gap: 2rem;
+    padding: 3rem;
+    align-items: center;
+  }
+  
+  .hero-img {
+    width: 350px;
+    border-radius: 12px;
+  }
+  
