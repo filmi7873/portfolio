@@ -129,3 +129,189 @@ body {
   background: radial-gradient(circle at top left, #fff1f5, transparent);
   padding: 4rem 2rem;
 }
+
+.work-with-me {
+  padding: 4rem 2rem;
+  background: var(--cream);
+  color: #333;
+  text-align: center;
+}
+
+.work-with-me h2 {
+  font-size: 2rem;
+  color: var(--rose);
+  font-family: 'EB Garamond', serif;
+  margin-bottom: 1.5rem;
+}
+
+.work-with-me p {
+  max-width: 700px;
+  margin: 0 auto 1rem auto;
+  line-height: 1.7;
+}
+.contact-page {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 4rem 2rem;
+  background: var(--cream);
+  color: #333;
+}
+
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #fff9f8, #ffe6ec);
+  min-height: 100vh;
+  text-align: center;
+  color: #333;
+}
+
+.contact-container {
+  background: #fff;
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(255, 182, 193, 0.2);
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-container h1 {
+  font-family: 'EB Garamond', serif;
+  font-size: 2.5rem;
+  color: var(--rose);
+  margin-bottom: 1rem;
+}
+
+.contact-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.contact-container a {
+  color: #d94f7a;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-container a:hover {
+  color: #b03060;
+  text-shadow: 0 0 4px rgba(255, 174, 201, 0.4);
+  text-decoration: underline;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.projects h2 {
+  font-size: 2rem;
+  color: var(--rose);
+  font-family: 'EB Garamond', serif;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 350px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(255, 174, 201, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  height: 180px;
+  background-color: var(--blush);
+}
+
+.project-card h3 {
+  color: var(--rose);
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.project-card ul {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.project-card li {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 1rem;
+  color: var(--rose);
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+.coming-soon {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: var(--cream);
+  color: #333;
+}
+
+.coming-soon h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 2rem;
+  color: var(--rose);
+  margin-bottom: 1rem;
+}
+
+.coming-soon-text {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.6;
+}
+
+.coming-soon-tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--rose);
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 15px rgba(255, 182, 193, 0.2);
+}
