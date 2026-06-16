@@ -2,157 +2,412 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Fatuma Ilmi | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Fatuma Ilmi is a software engineer building full-stack systems, routing tools, geospatial APIs, and developer-friendly dashboards."
+  />
+  <title>Fatuma Ilmi | Software Engineer</title>
+
   <link rel="stylesheet" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=EB+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,600;1,600&family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
 </head>
+
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <img src="images/fatuma-headshot.jpg" class="hero-img" alt="Fatuma Ilmi" />
-    <div class="hero-text">
-      <h1>FATUMA ILMI</h1>
-      <p class="subtitle">Backend Developer · Systems Thinker · Quietly Impressive</p>
-      <p class="tagline">I build clean, functional systems that solve real problems. Ready to contribute, ready to learn.</p>
-      <div class="button-group">
-        <a href="contacts.html" class="button">Reach Out</a>
-        <a href="Fatuma_Ilmi_Resume.pdf" class="button" target="_blank">View Resume</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="logo" href="index.html">Fatuma Ilmi</a>
+
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="contacts.html">Contact</a>
       </div>
-      
-    </div>
-  </section>
+    </nav>
+  </header>
 
-  <hr class="divider" />
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero section-shell">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Software Engineering · Full-stack · Geospatial Systems</p>
 
-  <!-- Stats Section -->
-  <section class="stats">
-    <div class="stat">
-      <img src="images/education.png" alt="Book icon" class="stat-icon" />
-      <div class="number" data-target="2">0</div>
-      <p>Semesters Left</p>
-    </div>
-    <div class="stat">
-      <img src="images/briefcase.png" alt="Briefcase icon" class="stat-icon" />
-      <div class="number" data-target="2">0</div>
-      <p>Internship</p>
-    </div>
-    <div class="stat">
-      <img src="images/project-management.png" alt="Project icon" class="stat-icon" />
-      <div class="number" data-target="4">0</div>
-      <p>Complete Projects</p>
-    </div>
-    <div class="stat">
-      <img src="images/tea-cup.png" alt="Tea icon" class="stat-icon" />
-      <div class="number" data-target="324">0</div>
-      <p>Cups of Tea</p>
-    </div>
-  </section>
+        <h1>Building practical systems with strong backend logic, clean interfaces, and real-world impact.</h1>
 
-  <!-- Projects Section -->
-  <section class="projects cozy-section" id="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-
-   
-      <!-- Hackathon Web App -->
-      <div class="project-card">
-        <h3>Hackathon Web App</h3>
-        <p>A 48-hour team build developed during my first hackathon. I led architecture, UI layout, and our demo delivery.</p>
-        <ul>
-          <li>Designed RESTful endpoints in Java for CRUD operations</li>
-          <li>Integrated frontend using HTML, CSS, and vanilla JavaScript</li>
-          <li>Collaborated in an all-women, POC-led team to deploy a functional prototype</li>
-          <li>Delivered live demo to judges, highlighting core app features under time constraints</li>
-        </ul>
-        <div class="project-links">
-          <a href="https://github.com/filmi7873/Hackathon" target="_blank">GitHub Repo</a>
-        </div>
-      </div>
-
-
-         <!-- Game of Set -->
-         <div class="project-card">
-          <video class="project-video" autoplay muted loop playsinline>
-            <source src="images/set_record.mov" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <h3>Game of Set</h3>
-          <p>A browser-based implementation of the logic card game Set. Built with HTML, CSS, and JavaScript.</p>
-          <ul>
-            <li>Created scoring logic, hint system, and UI flow</li>
-            <li>Designed player logic and turn-based features</li>
-            <li>Led GitHub collaboration and code review</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/filmi7873/game_of_set" target="_blank">GitHub Repo</a>
-          </div>
-        </div>
-  
-
-      <!-- Rails App -->
-      <div class="project-card">
-        <h3>Presentation Evaluation Web App</h3>
-        <p>
-          A role-based Ruby on Rails application for managing final presentation evaluations. 
-          Built with Devise and CanCanCan for authentication and access control.
-          <strong>Currently finishing full deployment and polish — live demo coming soon.</strong>
+        <p class="hero-copy">
+          I’m Fatuma Ilmi, a Computer Science &amp; Engineering graduate from The Ohio State University with software engineering experience across routing infrastructure, PostGIS APIs, React dashboards, Android apps, and full-stack internal tools.
         </p>
-        <ul>
-          <li>Implemented scoring, form logic, and user-specific views</li>
-          <li>Used Devise for authentication and CanCanCan for permissions</li>
-          <li>Led GitHub workflows and frontend UI integration with Bootstrap</li>
-        </ul>
-        <div class="project-links">
-          <a href="https://github.com/filmi7873/instructor_webpage" target="_blank">GitHub Repo</a>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="Fatuma Adam Ilmi Resume.pdf" target="_blank" rel="noopener">View Resume</a>
+          <a class="button secondary" href="https://github.com/filmi7873" target="_blank" rel="noopener">GitHub</a>
+          <a class="text-link" href="contacts.html">Let’s connect →</a>
         </div>
       </div>
 
-    </div>
-  
-    <div class="project-card full-row">
-      <h3>Job Tracker + Resume Matcher</h3>
-      <p>A full-stack web app that helps job seekers organize applications, tailor resumes to job descriptions, and stay one step ahead in the search.</p>
-      <ul>
-        <li>Tracks job applications and deadlines</li>
-        <li>Parses resumes and job postings to identify alignment</li>
-        <li>Uses keyword matching and role insights to boost visibility</li>
-      </ul>
-      <div class="project-links">
-        <a href="https://github.com/filmi7873/job_tracker/" target="_blank" >GitHub Repo</a>
-  
+      <aside class="hero-card reveal" aria-label="Portfolio highlights">
+        <div class="portrait-frame">
+          <img src="images/fatuma-headshot.jpg" alt="Fatuma Ilmi" />
+        </div>
+
+        <div class="availability-card">
+          <span class="status-dot"></span>
+          <p>
+            Open to entry-level software engineering roles, especially full-stack, backend, platform, geospatial, and infrastructure-adjacent teams.
+          </p>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Snapshot -->
+    <section class="snapshot" aria-label="Professional snapshot">
+      <div class="snapshot-card reveal">
+        <span class="snapshot-label">Background</span>
+        <strong>CSE graduate with real SWE experience</strong>
+        <p>
+          Ohio State alum with two software engineering internships across startup, operations, and full-stack product work.
+        </p>
       </div>
+
+      <div class="snapshot-card reveal">
+        <span class="snapshot-label">What I build</span>
+        <strong>Systems that make messy workflows clearer</strong>
+        <p>
+          Routing tools, internal dashboards, APIs, legacy platform upgrades, and apps that turn complexity into something usable.
+        </p>
+      </div>
+
+      <div class="snapshot-card reveal">
+        <span class="snapshot-label">Technical lane</span>
+        <strong>Backend-minded, full-stack capable</strong>
+        <p>
+          Java, Spring Boot, React, PostgreSQL/PostGIS, Docker, REST APIs, testing, and practical debugging.
+        </p>
+      </div>
+
+      <div class="snapshot-card reveal">
+        <span class="snapshot-label">Looking for</span>
+        <strong>A team where I can own real work</strong>
+        <p>
+          Entry-level SWE roles in backend, full-stack, platform, geospatial, internal tools, or infrastructure-adjacent engineering.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section-shell split-section" id="experience">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Experience</p>
+        <h2>Real engineering work, not just classroom projects.</h2>
+      </div>
+
+      <div class="experience-stack">
+        <article class="experience-card featured reveal">
+          <div class="card-topline">
+            <span>Ubihere</span>
+            <span>May–Dec 2025</span>
+          </div>
+
+          <h3>Software Engineering Intern · AI &amp; Tech Startup</h3>
+
+          <p>
+            Worked on routing, geospatial APIs, fleet-tracking interfaces, and internal CRM tooling for commercial deployment and operational support.
+          </p>
+
+          <ul class="impact-list">
+            <li>Deployed a Dockerized OSRM routing engine with PostgreSQL, cutting routing latency from about 100ms to about 7ms.</li>
+            <li>Built a Snap-to-Road API with PostgreSQL/PostGIS to process 1.8M+ Ohio roads and return confidence-scored routing data.</li>
+            <li>Developed React and MapLibre dashboards with dual-map layouts, offline tiles, route comparisons, and live monitoring tools.</li>
+            <li>Led an all-intern team to a Hack Day win by shipping a Google-integrated CRM prototype in 24 hours.</li>
+          </ul>
+
+          <div class="tag-row">
+            <span>React</span>
+            <span>MapLibre</span>
+            <span>PostgreSQL</span>
+            <span>PostGIS</span>
+            <span>Docker</span>
+            <span>REST APIs</span>
+          </div>
+        </article>
+
+        <article class="experience-card reveal">
+          <div class="card-topline">
+            <span>Southwestern Ambulance Services</span>
+            <span>May–Aug 2024</span>
+          </div>
+
+          <h3>Software Engineering Intern · Legacy Platform Modernization</h3>
+
+          <p>
+            Helped modernize a legacy ambulance operations platform by rebuilding scheduling and dispatch workflows into a cleaner, more reliable full-stack system for day-to-day emergency medical operations.
+          </p>
+
+          <ul class="impact-list">
+            <li>Engineered Java backend and JavaScript frontend features to replace older manual scheduling workflows with a more maintainable web-based system.</li>
+            <li>Implemented secure authentication and role-based access control for dispatch and operations users.</li>
+            <li>Optimized JSON-based data handling and backend response patterns, improving response times by about 35%.</li>
+            <li>Added JUnit and Jest test coverage across backend and frontend logic to improve reliability before handoff.</li>
+          </ul>
+
+          <div class="tag-row">
+            <span>Java</span>
+            <span>JavaScript</span>
+            <span>Legacy Modernization</span>
+            <span>RBAC</span>
+            <span>JUnit</span>
+            <span>Jest</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects-section" id="projects">
+      <div class="section-shell">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Featured Work</p>
+          <h2>Projects that show how I think, build, and debug.</h2>
+          <p class="section-intro">
+            I like projects that make complex systems easier to understand: architecture impact, routing behavior, user workflows, and real-world decision support.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-feature reveal">
+            <div class="project-label">Flagship Project</div>
+
+            <h3>SystemsLens</h3>
+
+            <p>
+              A full-stack architecture impact simulator that models distributed systems as dependency graphs and predicts downstream risk from outages, schema changes, and traffic spikes.
+            </p>
+
+            <ul>
+              <li>Built graph traversal engines to identify direct and indirect impact paths.</li>
+              <li>Created a React Flow dashboard to visualize propagation across APIs, databases, queues, workers, and external providers.</li>
+              <li>Designed Spring Boot APIs with PostgreSQL-backed architecture data.</li>
+            </ul>
+
+            <div class="tag-row">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Spring Boot</span>
+              <span>Java</span>
+              <span>PostgreSQL</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/filmi7873/systemlens" target="_blank" rel="noopener">GitHub Repo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-label soft">Academic Project</div>
+
+            <h3>FitCheck</h3>
+
+            <p>
+              An Android app that recommends outfits based on real-time weather, user comfort preferences, and daily feedback logs.
+            </p>
+
+            <ul>
+              <li>Implemented MVVM architecture with ViewModel, LiveData, and Room Database.</li>
+              <li>Persisted user comfort history, temperatures, notes, and suggestion feedback.</li>
+              <li>Added settings reset, weather API retrieval, and unit/UI testing.</li>
+            </ul>
+
+            <div class="project-actions">
+              <a href="images/fitcheck-demo.mp4" class="button secondary" target="_blank" rel="noopener">Watch Demo</a>
+              <span class="text-link disabled">Repo unavailable</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-label soft">Public Repo</div>
+
+            <h3>Presentation Evaluation Web App</h3>
+
+            <p>
+              A role-based Ruby on Rails application for instructors and students to manage presentation evaluations, presenter assignments, and completed feedback workflows.
+            </p>
+
+            <ul>
+              <li>Implemented authentication and authorization with Devise and CanCanCan.</li>
+              <li>Built student-facing evaluation forms and instructor-facing review views.</li>
+              <li>Led GitHub workflows and UI integration with Bootstrap.</li>
+            </ul>
+
+            <div class="tag-row">
+              <span>Ruby on Rails</span>
+              <span>Devise</span>
+              <span>CanCanCan</span>
+              <span>Bootstrap</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/filmi7873/instructor_webpage" target="_blank" rel="noopener">GitHub Repo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-label soft">Public Repo</div>
+
+            <h3>Game of Set</h3>
+
+            <p>
+              A browser-based implementation of the logic card game Set with scoring, hints, player turns, and collaborative frontend architecture.
+            </p>
+
+            <ul>
+              <li>Created progressive hint logic and valid-set detection.</li>
+              <li>Designed player flow, scoring, and turn-based UI behavior.</li>
+              <li>Supported code review and GitHub collaboration across the team.</li>
+            </ul>
+
+            <div class="tag-row">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Game Logic</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/filmi7873/game_of_set" target="_blank" rel="noopener">GitHub Repo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-label soft">Public Repo</div>
+
+            <h3>Job Tracker</h3>
+
+            <p>
+              A Ruby-based application for organizing job applications and turning a messy search process into a clearer workflow.
+            </p>
+
+            <ul>
+              <li>Structured application tracking around job status, deadlines, and role information.</li>
+              <li>Designed as a practical tool for job seekers managing multiple applications.</li>
+              <li>Built to evolve toward resume matching and job-description analysis.</li>
+            </ul>
+
+            <div class="tag-row">
+              <span>Ruby</span>
+              <span>Rails</span>
+              <span>Full-stack</span>
+              <span>Workflow Tools</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/filmi7873/job_tracker" target="_blank" rel="noopener">GitHub Repo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-label soft">Early Build</div>
+
+            <h3>Hackathon Web App</h3>
+
+            <p>
+              A 48-hour team project from my first hackathon, built with Java, JavaScript, HTML, and CSS.
+            </p>
+
+            <ul>
+              <li>Designed RESTful endpoints for CRUD operations.</li>
+              <li>Integrated frontend behavior with vanilla JavaScript.</li>
+              <li>Helped deliver a live demo under hackathon time constraints.</li>
+            </ul>
+
+            <div class="tag-row">
+              <span>Java</span>
+              <span>JavaScript</span>
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/filmi7873/Hackathon" target="_blank" rel="noopener">GitHub Repo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section-shell skills-section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Technical Toolkit</p>
+        <h2>The stack I bring into entry-level software engineering roles.</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h3>Languages</h3>
+          <p>Java, Python, C++, C, JavaScript, Kotlin, HTML5, CSS3</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>Frameworks &amp; Libraries</h3>
+          <p>React, Node.js, Express, Spring Boot, MapLibre, Ruby on Rails</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>Databases &amp; Geospatial</h3>
+          <p>PostgreSQL, PostGIS, MySQL, routing data, map tooling, spatial queries</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>Tools &amp; Testing</h3>
+          <p>Git, Docker, Linux/Unix, REST APIs, Bash, JUnit, Jest, GDB, Valgrind</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="cta-card reveal">
+        <p class="eyebrow">Let’s build something useful</p>
+
+        <h2>I’m looking for teams where I can own real work, learn fast, and make systems easier to use.</h2>
+
+        <p>
+          I’m especially interested in full-stack software engineering, backend development, platform/internal tooling, geospatial systems, and practical AI-adjacent products.
+        </p>
+
+        <div class="hero-actions centered-actions">
+          <a class="button primary" href="contacts.html">Contact Me</a>
+          <a class="button secondary" href="Fatuma Adam Ilmi Resume.pdf" target="_blank" rel="noopener">Resume</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Designed and built by Fatuma Ilmi.</p>
+
+    <div>
+      <a href="https://github.com/filmi7873" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/fatuma-ilmi" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:ilmi.5@buckeyemail.osu.edu">Email</a>
     </div>
-    
-    
-  </section>
-  
-  <!-- Floating Flower -->
-  <img src="images/flower-icon.png" class="bg-flower" alt="floating flower" />
+  </footer>
 
- 
-  <section class="work-with-me">
-    <h2>Let’s Work Together</h2>
-    <p>
-      Whether you’re building something small, scaling something big, or just need someone who knows how to keep backend logic clean and real-world ready — I’d love to collaborate.
-    </p>
-    <p>
-      I'm available for internships, freelance work, and passion projects that need care, clarity, and good systems thinking.
-    </p>
-
-    
-  </section>
-  
-  
-  
-
-
-  <!-- Floating Flower -->
-  <img src="images/flower-icon.png" class="bg-flower" alt="floating flower" />
-
-  <!-- Load scripts -->
   <script src="js/script.js"></script>
 </body>
 </html>
-
